@@ -1,0 +1,12 @@
+---
+- hosts:
+  tasks:
+  - name: create multiple file
+  file:
+    path: "/home/ansible/{{item}}"
+    state: touch
+    mode: 0775
+  with_items:
+  - access.log
+  - syatemd.log
+  - properties.txt
