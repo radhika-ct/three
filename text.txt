@@ -10,3 +10,4 @@
   - access.log
   - syatemd.log
   - properties.txt
+  - configer.txt
