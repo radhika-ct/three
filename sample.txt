@@ -6,3 +6,5 @@
       dest: "/home/ansible/sampl.txt"
       content:
       - file radhika
+      - chandrika
+      -santhu
